@@ -1,0 +1,68 @@
+@include breakpoint(2560) {
+    .work {
+        .item {
+            padding: 10px;
+            .content-item {
+                .icon-link {
+                    left: 43%;
+                }
+            }
+        }
+    }
+}
+@include breakpoint(1440) {
+    .work {
+        .item {
+            padding: 10px;
+            .content-item {
+                .icon-link {
+                    left: 37%;
+                }
+            }
+        }
+    }
+}
+@include breakpoint(1024) {
+    .header {
+        .logo {
+            align-self: unset;
+            padding-top: 5px;
+        }
+    }
+    .banner-container {
+        height: 600px;
+        .item {
+            padding: 150px 0;
+        }
+    }
+    .purchase {
+        .left {
+            padding: 30px 0;
+        }
+    }
+    .price {
+        .item {
+            .btn1 {
+                left: 15%;
+            }
+            .btn12 {
+                left: 4%;
+            }
+        }
+    }
+    .work {
+        .item {
+            padding: 10px;
+            .content-item {
+                .icon-link {
+                    left: 42%;
+                }
+            }
+        }
+    }
+    .team {
+        .btn {
+            left: 26%;
+        }
+    }
+}
