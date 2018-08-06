@@ -69,10 +69,10 @@ html {
         color: #383838;
         padding-bottom: 45px;
         .line {
-            border-bottom: 2px solid #FFF;
+            border-bottom: 1.2px solid #FFF;
             width: 100px;
             display: inline-block;
-            border-top: 2px solid #FFF;
+            border-top: 1.2px solid #FFF;
             height: 6px;
         }
         img {
@@ -325,7 +325,7 @@ html {
             font-family: "Raleway Medium";
             font-size: 12px;
             color: #aaaaaa;
-            padding-bottom: 25px;
+            padding-bottom: 20px;
         }
         .txt {
             font-family: "Raleway Medium";
@@ -647,15 +647,43 @@ html {
     .slick-prev {
         top: -25%;
         left: 0;
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+        border-radius: 5px;
         &:before {
-            color: #000;
+            content: '';
+            display: block;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-right: 13px solid #FFF;
+        }
+        &:hover {
+            background: #00a99d;
         }
     }
     .slick-next {
         top: -25%;
         right: 0;
-        &::before {
-            color: #000;
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+        border-radius: 5px;
+        &:before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            display: block;
+            margin-left: 10px;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 13px solid #FFF;
+        }
+        &:hover {
+            background: #00a99d;
         }
     }
     .key {
@@ -843,14 +871,58 @@ html {
     text-align: center;
     padding: 70px 0;
     .slick-next {
-        right: 48%;
+        right: 47%;
         bottom: -30%;
         top: unset;
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+        border-radius: 5px;
+        &:before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            display: block;
+            margin-left: 10px;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 13px solid #FFF;
+        }
+        &:hover {
+            background-color: #FFF;
+            &:before {
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-left: 13px solid #00a99d;
+            }
+        }
     }
     .slick-prev {
-        left: 48%;
+        left: 47%;
         bottom: -30%;
         top: unset;
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+        border-radius: 5px;
+        &:before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-right: 13px solid #FFF;
+        }
+        &:hover {
+            background-color: #FFF;
+            &:before {
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-right: 13px solid #00a99d;
+            }
+        }
     }
     .btn {
         background-color: #e4e4e4;
@@ -874,6 +946,56 @@ html {
     background-color: #383838;
     text-align: center;
     padding: 70px 0;
+    .slick-next {
+        right: -35px;
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+        border-radius: 5px;
+        &:before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            display: block;
+            margin-left: 10px;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 13px solid #FFF;
+        }
+        &:hover {
+            background-color: #00a99d;
+            &:before {
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-left: 13px solid #FFF;
+            }
+        }
+    }
+    .slick-prev {
+        left: -35px;
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+        border-radius: 5px;
+        &:before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-right: 13px solid #FFF;
+        }
+        &:hover {
+            background-color: #00a99d;
+            &:before {
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                border-right: 13px solid #FFF;
+            }
+        }
+    }
     .image {
         display: inline-block;
         padding: 30px;
@@ -942,6 +1064,7 @@ html {
             position: absolute;
             top: -12%;
             left: 13%;
+            z-index: 22;
             .icon-star-full {
                 color: #00a99d;
                 padding: 5px;
@@ -1018,9 +1141,6 @@ html {
         font-family: "Raleway Bold";
         font-size: 26px;
         color: #383838;
-        display: flex;
-        align-content: center;
-        justify-content: center;
         padding-top: 10px;
         .icon-heart {
             color: #00a99d;
