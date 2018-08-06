@@ -1,0 +1,90 @@
+@include breakpoint(2560) {
+    .work {
+        .item {
+            padding: 10px;
+            .content-item {
+                top: 15%;
+                .icon-link {
+                    left: 43%;
+                }
+            }
+        }
+    }
+    .maps {
+        .form-contact {
+            left: 30%;
+        }
+    }
+}
+@include breakpoint(1440) {
+    .work {
+        .item {
+            padding: 1px;
+            .content-item {
+                top: 15%;
+                .icon-link {
+                    left: 37%;
+                }
+            }
+        }
+    }
+}
+@include breakpoint(1024) {
+    .header {
+        .logo {
+            align-self: unset;
+            padding-top: 5px;
+        }
+        .nav-list {
+            .item-nav {
+                .title-nav {
+                    padding: 5px 12px;
+                }
+            }
+        }
+    }
+    .banner-container {
+        height: 600px;
+        .item {
+            padding: 150px 0;
+        }
+    }
+    .purchase {
+        .left {
+            padding: 30px 0;
+        }
+    }
+    .price {
+        .item {
+            .btn1 {
+                left: 15%;
+            }
+            .btn12 {
+                left: 4%;
+            }
+        }
+    }
+    .work {
+        .item {
+            padding: 10px;
+            .content-item {
+                .icon-link {
+                    left: 42%;
+                }
+            }
+        }
+    }
+    .team {
+        .btn {
+            left: 17%;
+        }
+        .content {
+            .ico {
+                .icon {
+                    font-size: 15px;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}
