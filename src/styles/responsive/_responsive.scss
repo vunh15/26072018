@@ -3,6 +3,7 @@
         .item {
             padding: 10px;
             .content-item {
+                top: 35%;
                 .icon-link {
                     left: 43%;
                 }
@@ -13,8 +14,9 @@
 @include breakpoint(1440) {
     .work {
         .item {
-            padding: 10px;
+            padding: 1px;
             .content-item {
+                top: 15%;
                 .icon-link {
                     left: 37%;
                 }
@@ -27,6 +29,13 @@
         .logo {
             align-self: unset;
             padding-top: 5px;
+        }
+        .nav-list {
+            .item-nav {
+                .title-nav {
+                    padding: 5px 12px;
+                }
+            }
         }
     }
     .banner-container {
@@ -62,7 +71,15 @@
     }
     .team {
         .btn {
-            left: 26%;
+            left: 17%;
+        }
+        .content {
+            .ico {
+                .icon {
+                    font-size: 15px;
+                    padding: 15px;
+                }
+            }
         }
     }
 }

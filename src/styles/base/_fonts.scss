@@ -24,11 +24,11 @@
   
   @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?s2ypbw');
-    src:  url('../fonts/icomoon.eot?s2ypbw#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?s2ypbw') format('truetype'),
-      url('../fonts/icomoon.woff?s2ypbw') format('woff'),
-      url('../fonts/icomoon.svg?s2ypbw#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?34ic1y');
+    src:  url('../fonts/icomoon.eot?34ic1y#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?34ic1y') format('truetype'),
+      url('../fonts/icomoon.woff?34ic1y') format('woff'),
+      url('../fonts/icomoon.svg?34ic1y#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
   }
@@ -48,6 +48,12 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
+  .icon-square:before {
+    content: "\e908";
+  }
+  .icon-caret-square-left-solid:before {
+    content: "\e907";
+  }
   .icon-facebook:before {
     content: "\e900";
   }
@@ -104,6 +110,9 @@
   }
   .icon-google+:before {
     content: "\e901";
+  }
+  .icon-toolbox:before {
+    content: "\e903";
   }
   .icon-like:before {
     content: "\e902";
