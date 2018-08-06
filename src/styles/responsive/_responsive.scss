@@ -16,6 +16,22 @@
         }
     }
 }
+@include breakpoint(1920) {
+    .work {
+        .item {
+            .content-item {
+                .icon-link {
+                    left: 39%;
+                }
+            }
+        }
+    }
+    .maps {
+        .form-contact {
+            left: 25%;
+        }
+    }
+}
 @include breakpoint(1440) {
     .work {
         .item {
